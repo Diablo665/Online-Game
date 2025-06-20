@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Создание игры </title>
+    <script src="../js/jquery-3.7.1.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+</head>
+<body>
+    <!-- Главный блок -->
+    <div class = "main_block"> 
+        
+        <!-- Верхний колонтикул-->
+         <div class = "top"> 
+            <div class = logo> 
+                <img src = "https://habrastorage.org/webt/39/cp/wa/39cpwawqnizit2jha7nbyutnx6i.jpeg">
+            </div>
+
+            <div class = icons>
+                <ion-icon class = disable name="information-circle-outline" title = "Инфомрация"></ion-icon>
+                <ion-icon class = disable name="settings" title = "Настройки"></ion-icon>
+            </div>
+        </div>
+
+        <div class = 'SettingPanel'>
+<!-- Правая панель с настройками паков -->
+            <div class = CategorySetting>
+                <h2> Настройки вопросов: </h2>
+                <br />
+                <div class = questionNum> 
+                    <table> 
+                        <tr>
+                            <th> Введите количсетво вопросов для игры: </th>
+                        </tr>
+                        <tr>
+                            <th> <input id = quantityQuestion type = "number" min = "10" max = "400"> </th>
+                        </tr>
+                    </table>
+                </div>
+                <div class = categoryList>
+                    <div class = category id = 'test1'> Аниме </div>
+                    <div class = category id = 'test2'> Фильмы </div>
+                    <div class = category id = 'test3'> Сериалы (Ру) </div>
+                    <div class = category id = 'test4'> Сериалы </div>
+                    <div class = category id = 'test5'> Игры </div>
+                    <div class = category id = 'test6'> Ютуберы  </div>
+                    <div class = category id = 'test7'> Мемы </div>
+                </div>
+                <div> 
+                    <button class = "menu_button random"> Рандом </button>
+                    <button class = "menu_button start"> Начать игру </button>
+                </div>
+            </div>
+<!-- Левая панель с настройками самой игры-->
+            <div class = GameSetting>
+                <h2> Настройки игры: </h2>
+                <br />
+                <table> 
+                    <tr>
+                        <th> Время для прочтения вопроса </th>
+                        <th> <input type="range" id="QuestionClose" min="5" max="80" value="35" step="5" /> </th>
+                    </tr>
+                    <tr>
+                        <th> Время для ответа </th>
+                        <th> <input type="range" id="AnswerTimer" min="5" max="80" value="35" step="5" /> </th> 
+                    </tr>
+                    <tr>
+                        <th> Настройка 3 </th>
+                        <th> Что-то для настройки 3 </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

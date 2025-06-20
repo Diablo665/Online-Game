@@ -1,0 +1,225 @@
+* {
+ margin: 0;
+ padding: 0;
+ }
+
+body {
+    background-image: url('../img/back2.jpg')
+}
+
+.main_block
+{
+    background-color: #1a1a1dd1;
+    /*margin: 5px;
+    border-radius: 33px;*/
+    border: solid, 0.1px;
+    height: 98vh;
+    
+}
+
+.top{
+    height: 60px;
+    border-bottom: solid #4E4E50 0.1px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top .logo{ 
+    margin-left: 10px;
+    width: 55px;
+    height: 55px;
+
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.top .icons{
+    font-size: 50px;
+    color: #a0a0a0;
+    
+}
+
+
+.enter_form{
+    background-color: #1a1a1dc9;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    box-shadow: 10px 5px 25px #a6a6a67d, -10px -5px 25px #e5e5e557;
+    border-radius: 15px;
+    padding-top: 20px;
+    
+}
+
+.profile_page{
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.profile_page img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#enter_info{
+    padding: 5px;
+    text-align:center;
+    font-size:16pt;
+    color: #fff; 
+}
+
+#enter_info input{
+    padding: 3px;
+    border: none;
+    border-bottom: solid 2px #a2a2a2;
+    border-radius: 3px;
+    height: 24px;
+    background: #323232;
+    color: #fff
+    
+}
+
+#enter_info input:focus{
+    background: #323232;
+    outline: none;
+}
+
+#enter_info button{
+    margin-top: 15px;
+    background-color: #7b7b7b;
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+#enter_info button:hover{
+    background-color: #4f755a
+}
+
+.setting_games{
+    margin: 200px auto;
+    max-width: 500px;
+    background-color: #1a1a1dc9;
+    box-shadow: 10px 5px 25px #a6a6a67d, -10px -5px 25px #e5e5e557;
+    border-radius: 10px;
+}
+
+.setting_games table{
+    margin: auto;
+    padding: 15px;
+    width: 80%
+    
+}
+
+td#NickName{
+    font-size:24px;
+    padding: 2pc
+}
+
+.menu_button{
+    font:35px standart;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.disable{
+    opacity: 0.5;
+}
+
+.disable:hover{
+    opacity: 1;
+    border: solid #bf4b4b;
+}
+
+.enable{
+    border: solid;
+}
+
+.enable:hover{
+    border: solid green;
+}
+ 
+/* Странциа насроек */ 
+
+.SettingPanel{
+    display: flex;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.CategorySetting, .GameSetting, table{
+    flex: 50%;
+    width: 100%;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #aeaeae;
+    text-align: center;
+}
+
+
+.CategorySetting, .GameSetting{
+    border: solid 1px #606060d4;
+    margin: 5px;
+    
+}
+
+
+.categoryList{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    margin: 15px 0; 
+    
+}
+
+.categoryList .category{
+    font-size: 34px;
+    border: dotted 1px #747474;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+
+.category:hover{
+    background-color:#69f3713b;
+}
+
+.start{
+    border: solid;
+    background-color: #4bf478;
+    font-size: 25px;
+}
+
+.start:hover{
+    border: solid;
+    background-color: #1cfa66;
+}
+
+.random{
+    border: solid;
+    background-color: #4edfe2;
+    font-size: 25px;
+}
+
+.random:hover{
+    border: solid;
+    background-color: #18d2fc;
+}
+
+#quantityQuestion{
+    background-color: #76767659;
+    height:25px;
+    border-radius: 5px;
+    color: #fff
+}
