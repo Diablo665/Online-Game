@@ -1,4 +1,22 @@
+# файлы IDE
+.idea/
+
+# Логи
+*.log
+
+# Временные файлы системы
+*.tmp
+
+# Временные файлы редакторов Vi (Vim, gVim ...)
+*.swp
+
+# Список файлов Windows для игнорирования
+Thumbs.db
+desktop.ini
+
+# Папки/файлы проекта
 php/configSQL.php
 php/connect.php
+
 onlain
 
